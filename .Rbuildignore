@@ -1,0 +1,10 @@
+^geobuffer\.Rproj$
+^\.Rproj\.user$
+^build-git-ignore$
+^\.gitattributes$
+^\.gitignore$
+^\.git$
+^README\.Rmd$
+^README-.*\.png$
+^\.travis\.yml$
+^appveyor\.yml$
