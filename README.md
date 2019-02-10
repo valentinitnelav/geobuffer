@@ -4,7 +4,7 @@
 
 R package that allows the possibility of creating **geodesic buffers** when the radius is given in metric units. A geodesic buffer is not affected by the distortions introduced by projected coordinate systems.
 
-In order to use `rgeos::gBuffer()` with a metric radius, one has to project the coordinates. Projecting and then applying `gBuffer` means actually producing **Euclidean** buffers as opposed to **Geodesic** ones. Euclidian buffers are affected by the distortions.
+In order to use `rgeos::gBuffer()` with a metric radius, one has to project the coordinates. Projecting and then applying `gBuffer` means actually producing **Euclidean** buffers as opposed to **Geodesic** ones. Euclidian buffers are affected by distortions.
 
 <p float="left">
   <img src="https://i.stack.imgur.com/nr2bP.jpg" width="200" />
@@ -14,7 +14,7 @@ In order to use `rgeos::gBuffer()` with a metric radius, one has to project the 
 
 The `geobuffer` package avoids this problem, producing directly geodesic buffers with a given metric radius by wrapping around the `geosphere::destPoint()`.
 
-The idea was first expressed on gis.stackexchange - [Euclidean and Geodesic Buffering in R](https://gis.stackexchange.com/questions/250389/euclidean-and-geodesic-buffering-in-r). A related question was addressed on Stack Overflow [here](https://stackoverflow.com/questions/25411251/buffer-geospatial-points-in-r-with-gbuffer). Relevant is also the ESRI article [Understanding Geodesic Buffering](https://www.esri.com/news/arcuser/0111/geodesic.html).
+The idea for the code was first expressed on gis.stackexchange - [Euclidean and Geodesic Buffering in R](https://gis.stackexchange.com/questions/250389/euclidean-and-geodesic-buffering-in-r). A related question was addressed on Stack Overflow [here](https://stackoverflow.com/questions/25411251/buffer-geospatial-points-in-r-with-gbuffer). Relevant is also the ESRI article [Understanding Geodesic Buffering](https://www.esri.com/news/arcuser/0111/geodesic.html).
 
 # Installation
 
@@ -84,3 +84,9 @@ ggplot(data = buffers,
 <img src="https://i.imgur.com/BVrXNsq.png" width="500" />
 
 <sup>Created on 2019-02-10 by the [reprex package](https://reprex.tidyverse.org) (v0.2.1)</sup>
+
+# To do
+
+- [ ] Make use of the faster alternative proposed [here](https://gis.stackexchange.com/a/251873/62753);
+- [ ] Fix the buffer display when crossing the antemeridian;
+- [ ] Geodesic buffer for lines and polygons;
