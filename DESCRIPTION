@@ -9,16 +9,21 @@ Description: Allows the possibility of creating geodesic buffers when the radius
 License: MIT + file LICENSE
 URL: https://github.com/valentinitnelav/geobuffer
 BugReports: https://github.com/valentinitnelav/geobuffer/issues
-Depends: R (>= 3.5.1)
+Depends: R (>= 3.5.0)
 Imports:
     geosphere (>= 1.5-7),
     sp (>= 1.3-1),
     sf (>= 0.7-2),
-    mapview (>= 2.6.3),
     data.table (>= 1.12.0),
-    plotKML(>= 0.5-9),
-    ggplot2(>= 3.1.0),
-    tmap(>= 2.2)
+Suggests:
+    dggridR,
+    tmap,
+    ggplot2,
+    plotKML,
+    mapview,
+    roxygen2,
+    knitr,
+    rmarkdown
 Encoding: UTF-8
 LazyData: true
 RoxygenNote: 6.1.1
