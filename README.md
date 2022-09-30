@@ -106,6 +106,17 @@ tm_shape(World[World$iso_a3 == "ROU",]) +
 
 <sup>Created on 2019-02-11 by the [reprex package](https://reprex.tidyverse.org) (v0.2.1)</sup>
 
+https://doi.org/10.5281/zenodo.7127818
+
+# How to cite the package?
+
+I just uploaded this packge on Zenodo after almost 4 years :)
+Would be nice to cite it if you make use of it.
+
+You can cite the package as:
+
+> Valentin Ștefan (2022). R package for constructing geodesic buffers using metric radiuses. https://doi.org/10.5281/zenodo.7127818
+
 # To do
 
 - [ ] Make use of the faster alternative proposed [here](https://gis.stackexchange.com/a/251873/62753);
