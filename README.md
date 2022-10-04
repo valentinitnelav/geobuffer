@@ -1,3 +1,5 @@
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.7127818.svg)](https://doi.org/10.5281/zenodo.7127818)
+
 # geobuffer: Geodesic buffer using metric radius
 
 # Overview
