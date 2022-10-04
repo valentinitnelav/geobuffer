@@ -115,9 +115,11 @@ Would be nice to cite it if you make use of it.
 
 You can cite the package as:
 
-> Valentin Ștefan (2022). R package for constructing geodesic buffers using metric radiuses. https://doi.org/10.5281/zenodo.7127818
+> Valentin Ștefan (2022). geobuffer: R package for constructing geodesic buffers using metric radiuses. https://doi.org/10.5281/zenodo.7127818
 
 # Examples of scientific papers using and citing bootstrapnet
+
+Kass, J.M., Guénard, B., Dudley, K.L., Jenkins, C.N., Azuma, F., Fisher, B.L., Parr, C.L., Gibb, H., Longino, J.T., Ward, P.S. and Chao, A., 2022. The global distribution of known and undiscovered ant biodiversity. Science advances, 8(31), p.eabp9908.
 
 Weekers, T., Marshall, L., Leclercq, N., Wood, T.J., Cejas, D., Drepper, B., Hutchinson, L., Michez, D., Molenberg, J.M., Smagghe, G. and Vandamme, P., 2022. Dominance of honey bees is negatively associated with wild bee diversity in commercial apple orchards regardless of management practices. Agriculture, Ecosystems & Environment, 323, p.107697.
 
