@@ -115,7 +115,7 @@ Would be nice to cite it if you make use of it.
 
 You can cite the package as:
 
-> Valentin Ștefan (2022). geobuffer: R package for constructing geodesic buffers using metric radiuses. https://doi.org/10.5281/zenodo.7127818
+> Valentin Ștefan. (2019). geobuffer: R package for constructing geodesic buffers using metric radiuses (v1.0.0). Zenodo. https://doi.org/10.5281/zenodo.7127818
 
 # Examples of scientific papers using and citing bootstrapnet
 
