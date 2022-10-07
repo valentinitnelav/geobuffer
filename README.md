@@ -113,15 +113,19 @@ tm_shape(World[World$iso_a3 == "ROU",]) +
 I just uploaded this packge on Zenodo after almost 4 years :)
 Would be nice to cite it if you make use of it.
 
-You can cite the package as:
+You can cite the package with a DOI as:
 
-> Valentin Ștefan. (2019). geobuffer: R package for constructing geodesic buffers using metric radiuses (v1.0.0). Zenodo. https://doi.org/10.5281/zenodo.7127818
+> Valentin Ștefan. (2019). geobuffer: R package for constructing geodesic buffers using metric radii. Zenodo. https://doi.org/10.5281/zenodo.7127818
 
 ## Examples of scientific papers using and citing the package
+
+Fecchio, A., Ribeiro, R.M., Ferreira, F.C., de Angeli Dutra, D., Tolesano-Pascoli, G., Alquezar, R.D., Khan, A.U., Pichorim, M., Moreira, P.A., Costa-Nascimento, M.J. and Monteiro, E.F., 2021. Higher infection probability of haemosporidian parasites in Blue-black Grassquits (Volatinia jacarina) inhabiting native vegetation across Brazil. Parasitology international, 80, p.102204.
 
 Kass, J.M., Guénard, B., Dudley, K.L., Jenkins, C.N., Azuma, F., Fisher, B.L., Parr, C.L., Gibb, H., Longino, J.T., Ward, P.S. and Chao, A., 2022. The global distribution of known and undiscovered ant biodiversity. Science advances, 8(31), p.eabp9908.
 
 Weekers, T., Marshall, L., Leclercq, N., Wood, T.J., Cejas, D., Drepper, B., Hutchinson, L., Michez, D., Molenberg, J.M., Smagghe, G. and Vandamme, P., 2022. Dominance of honey bees is negatively associated with wild bee diversity in commercial apple orchards regardless of management practices. Agriculture, Ecosystems & Environment, 323, p.107697.
+
+Weekers, T., Marshall, L., Leclercq, N., Wood, T.J., Cejas, D., Drepper, B., Garratt, M., Hutchinson, L., Roberts, S., Bosch, J. and Roquer-Beni, L., 2022. Ecological, environmental, and management data indicate apple production is driven by wild bee diversity and management practices. Ecological Indicators, 139, p.108880.
 
 # To do
 
