@@ -9,8 +9,8 @@ R package that allows the possibility of creating **geodesic buffers** when the 
 In order to use `rgeos::gBuffer()` with a metric radius, one has to project the coordinates. Projecting and then applying `gBuffer` means actually producing **Euclidean** buffers as opposed to **Geodesic** ones. Euclidean buffers are affected by distortions.
 
 <p float="left">
-  <img src="https://i.stack.imgur.com/nr2bP.jpg" width="200" />
-  <img src="https://i.stack.imgur.com/5wyFG.jpg" width="200" /> 
+  <img src="https://i.sstatic.net/nr2bP.jpg" width="200" />
+  <img src="https://i.sstatic.net/5wyFG.jpg" width="200" /> 
 </p>
 <sup>Left – Euclidian buffers, affected by distortions; Right – geodesic buffers, no distortions.</sup>
 
